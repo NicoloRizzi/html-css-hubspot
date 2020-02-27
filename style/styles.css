@@ -26,7 +26,7 @@ a {
 
 }
  .main-header {
-   width: 1200px;
+   width: 1000px;
    margin: 0 auto;
    height: 80px;
    padding-top: 30px;
@@ -65,7 +65,9 @@ a {
 .float-left {
   float: left;
 }
-
+.inline-block {
+  display: inline-block;
+}
 .align-right {
   text-align: right;
 }
@@ -80,7 +82,7 @@ a {
   width: 100%;
 }
 .nav-container {
-  width: 1200px;
+  width: 1000px;
   margin: 0 auto;
   padding-top: 15px;
 }
@@ -93,6 +95,9 @@ a {
   padding: 0 10px;
   color: #32495b;
 }
+.menu-inline li span {
+  margin-right: 3px;
+}
 
 .jumbotron {
   width: 100%;
@@ -101,14 +106,24 @@ a {
   height: 100vh;
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
 .main-jumbotron {
-  width: 1200px;
+  width: 1000px;
   margin: 0 auto;
 }
+
 .w-40 h1 {
   color: #33475B;
 }
+
  .main-jumbotron p{
    margin: 20px 0;
+ }
+ .powerful-alone {
+   width: 100%;
+ }
+ .powerful-alone img {
+   width: 300px;
+   align-items: center;
  }
