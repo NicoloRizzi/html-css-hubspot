@@ -10,10 +10,12 @@ body {
 }
 a {
   text-decoration: none;
+  color: black;
 }
 .container-full-width-header {
   width: 100%;
   background-color: #F4F9FD;
+  border-bottom: 1px solid #33475B;
 
 }
  .main-header {
