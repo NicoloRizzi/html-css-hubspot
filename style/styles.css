@@ -6,16 +6,46 @@
 }
 
 body {
-  width: 1000px;
-  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
 }
-
-.main-header {
-  height: 100px;
-  border: 3px solid black;
+.container-full-width-header {
+  width: 100%;
   background-color: #F4F9FD;
-}
 
+}
+ .main-header {
+   width: 1000px;
+   margin: 0 auto;
+   height: 80px;
+   padding-top: 30px;
+ }
+
+ .colonna-sx span:nth-child(2) {
+   padding: 0 20px;
+ }
+
+.btn-white-orange {
+  border: 1px solid orange;
+  border-radius: 5px;
+  background-color: white;
+  color: orange;
+  padding: 10px;
+  margin: 0 20px;
+}
 .w-50 {
   width: 50%;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
 }
