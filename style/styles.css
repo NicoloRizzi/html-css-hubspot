@@ -8,6 +8,9 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+a {
+  text-decoration: none;
+}
 .container-full-width-header {
   width: 100%;
   background-color: #F4F9FD;
@@ -24,13 +27,22 @@ body {
    padding: 0 20px;
  }
 
-.btn-white-orange {
-  border: 1px solid orange;
+.btn {
+  padding: 10px;
   border-radius: 5px;
+}
+.btn-white-orange {
   background-color: white;
-  color: orange;
+  color: #FE775A;
   padding: 10px;
   margin: 0 20px;
+  border: 1px solid #FE775A;
+
+}
+.btn-orange-small {
+  border: 1px solid #FE775A ;
+  color: white;
+  background-color: #FE775A;
 }
 .w-50 {
   width: 50%;
