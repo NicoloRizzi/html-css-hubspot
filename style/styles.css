@@ -10,6 +10,9 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+p {
+  font-size: 14px;
+}
 
 .fa-search {
   color: #02a6bf;
@@ -66,7 +69,15 @@ body {
    width: 100%;
  }
  .powerful-alone img {
-   width: 300px;
+   width: 200px;
+   margin-top: 40px;
+
+ }
+
+ .main-powerful-alone {
+   width: 695px;
+   margin: 0 auto;
+   text-align: center;
  }
 
  .w-50 h1 {
