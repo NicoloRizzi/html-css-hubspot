@@ -2,19 +2,19 @@
   width: 100%;
   background: #f4f9fd;
 }
-#sub-middle-info {
+.sub-middle-info {
   width: 1000px;
   margin: 0 auto;
   background-color: #ffffff;
 }
-#sub-middle-info img {
+.sub-middle-info img {
   width: 100px;
 }
 
-#sub-middle-info .col-sx {
+.sub-middle-info .col-sx {
   width: 30%;
 }
-#sub-middle-info .col-dx {
+.sub-middle-info .col-dx {
   width: 70%;
 }
 
