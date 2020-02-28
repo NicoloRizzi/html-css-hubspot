@@ -85,7 +85,9 @@
   padding: 0 15px;
 }
 
-
+.middle-info .col-dx h3 {
+  margin-bottom: 10px;
+}
 /* REGOLE GENERALI */
 * {
   margin: 0;
