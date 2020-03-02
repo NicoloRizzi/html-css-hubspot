@@ -36,6 +36,7 @@
 .bottom-info {
   width: 100%;
   background: #f4f9fd;
+  padding-bottom: 30px;
 }
 .bottom-info .container {
   width: 1000px;
@@ -234,6 +235,10 @@ p {
    width: 50%;
  }
 
+ .w-25 {
+   width: 25%;
+ }
+
  .menu-inline {
    list-style: none;
  }
@@ -254,3 +259,33 @@ p {
    text-decoration: none;
    color: #32495b;
  }
+/* SECTION LEARN-GROW */
+.learn-grow {
+  width: 100%;
+  background: #00b6ac;
+  text-align: center;
+}
+
+.container-learn-grow {
+  width: 1000px;
+  margin: 0 auto;
+}
+.container-learn-grow h2 {
+  font-size: 31px;
+  padding: 20px 0px;
+  color: white;
+}
+.container-learn-grow h5 {
+  font-size: 40px;
+  padding: 10px 0;
+}
+
+.container-learn-grow span {
+  font-size: 16px;
+}
+
+.learn-grind {
+  text-align: center;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+}
